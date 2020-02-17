@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/cafe.hpp
+iostream
+-
+item.hpp
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/item.hpp
+string
+-
+map
+-
+vector
+-
+
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/interface.cpp
+iostream
+-
+cafe.hpp
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/cafe.hpp
+interface.hpp
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/interface.hpp
+
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/interface.hpp
+iostream
+-
+cafe.hpp
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/cafe.hpp
+
+/Users/ptumulty/Documents/VS_Code/C++/Cafe/item.hpp
+
