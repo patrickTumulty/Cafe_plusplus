@@ -24,6 +24,9 @@ int Interface::mainLoop()
     int welcome = 0;
     std::string selectedItem;
     std::string itemNumber;
+    std::string paymentAmount;
+    size_t offset = 0;
+    std::map<float, int> * change;
     while (true)
     {
         this->clearScreen();
@@ -45,7 +48,12 @@ int Interface::mainLoop()
         {
             std::cout << "We only have " + std::to_string(this->m_cafe.getInventory()->at(selectedItem).getQuantity()) + " available." << std::endl;
         }
-        std::cout << "Total = " + this->num_to_string(this->m_cafe.makeSale(selectedItem, std::stoi(itemNumber, nullptr))) << std::endl;
+        std::string Total = this->num_to_string(this->m_cafe.makeSale(selectedItem, std::stoi(itemNumber, nullptr)));
+        std::cout << "Total = $" + Total << std::endl;
+        std::cout << "Enter payment amount >> $";
+        std::cin >> paymentAmount;
+        change = this->m_cafe.cashRegister(std::stof(Total), std::stof(paymentAmount));  
+        this->readChangeMap(change);
         std::cout << "Would you like to make another purchase? [ Y / N ] >> ";
         std::cin >> selectedItem; 
         if (selectedItem == "N" || selectedItem == "n")
@@ -81,7 +89,7 @@ std::string Interface::num_to_string(float itemPrice)
             break;
         }
     }
-    return "$" + price.substr(0, val);
+    return price.substr(0, val);
 }
 
 std::string Interface::formatString(Item item)
@@ -137,5 +145,19 @@ void Interface::stockInventory()
     this->m_cafe.addInventory("Donuts", 22, 4.30);
     this->m_cafe.addInventory("Sandwich", 20, 7.80);
     this->m_cafe.addInventory("Salad", 20, 8.20);
+}
+
+void Interface::readChangeMap(std::map<float, int> * changeMap)
+{
+    float total = 0.0;
+    for (std::map<float, int>::iterator it = changeMap->begin(); it != changeMap->end(); ++it)
+    {
+        if (it->second != 0)
+        {
+            total += it->first * it->second;
+            std::cout << "   $" << it->first << " x " << it->second << std::endl; 
+        }
+    }
+    std::cout << "Your change is $" << total << std::endl;
 }
 

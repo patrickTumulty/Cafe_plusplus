@@ -20,6 +20,7 @@ public:
  
     std::map<std::string, Item> * getInventory();
     float makeSale(std::string item, int quantity);
+    std::map<float, int> * cashRegister(float valueTotal, float amountGiven);
 
 private:
     std::string _cafeName;

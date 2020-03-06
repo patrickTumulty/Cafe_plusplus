@@ -20,6 +20,7 @@ public:
     std::string num_to_string(float itemPrice);
     std::string formatTitle();
     std::string formatLine();
+    void readChangeMap(std::map<float, int> * changeMap);
     void clearScreen();
 
 private:

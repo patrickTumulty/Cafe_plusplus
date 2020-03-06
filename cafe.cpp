@@ -11,6 +11,7 @@
 #include <iostream>
 #include <string>
 #include <map>
+#include <math.h>
 
 
 Cafe::Cafe()
@@ -66,5 +67,35 @@ std::map<std::string, Item> * Cafe::getInventory()
 {
     return _inventory;
 }
+
+std::map<float, int> * Cafe::cashRegister(float valueTotal, float amountGiven)
+{
+    std::map<float, int> * change = new std::map<float, int>();
+    change->insert(std::pair<float, int>(0.01, 0));
+    change->insert(std::pair<float, int>(0.05, 0));
+    change->insert(std::pair<float, int>(0.10, 0));
+    change->insert(std::pair<float, int>(0.25, 0));
+    change->insert(std::pair<float, int>( 1.0, 0));
+    change->insert(std::pair<float, int>( 5.0, 0));
+    change->insert(std::pair<float, int>(10.0, 0));
+    change->insert(std::pair<float, int>(20.0, 0));
+    float amount = amountGiven - valueTotal;
+    float moneyAmounts[8] = {20, 10, 5, 1, 0.25, 0.1, 0.05, 0.01};
+    for (int i = 0; i < 8; i++)
+    {
+        float x = moneyAmounts[i];
+        if ( floorf(amount / x) == 0)
+        {
+            continue;
+        }
+        else
+        {
+            change->at(x) = floorf(amount/x);
+            amount = roundf((amount - (floorf(amount/x) * x)) * 100) * 0.01;   
+        }
+    }
+    return change;
+}
+
 
 
