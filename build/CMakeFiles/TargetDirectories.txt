@@ -1,3 +1,3 @@
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/build/CMakeFiles/rebuild_cache.dir
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/build/CMakeFiles/edit_cache.dir
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/build/CMakeFiles/Cafe.dir
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/rebuild_cache.dir
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/edit_cache.dir
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/Cafe.dir

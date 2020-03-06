@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/cafe.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/cafe.hpp
 iostream
 -
 item.hpp
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/item.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/item.hpp
 string
 -
 map
@@ -18,19 +18,19 @@ map
 vector
 -
 
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/interface.cpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/interface.cpp
 iostream
 -
 cafe.hpp
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/cafe.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/cafe.hpp
 interface.hpp
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/interface.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/interface.hpp
 
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/interface.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/interface.hpp
 iostream
 -
 cafe.hpp
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/cafe.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/cafe.hpp
 
-/Users/ptumulty/Documents/VS_Code/C++/Cafe/item.hpp
+/Users/ptumulty/Developer/GitHub/Cafe_plusplus/item.hpp
 
