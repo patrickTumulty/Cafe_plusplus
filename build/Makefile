@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus
+CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build
+CMAKE_BINARY_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,125 +111,241 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cafe
+# Target rules for targets named cafe-tests
 
 # Build rule for target.
-Cafe: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cafe
-.PHONY : Cafe
+cafe-tests: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cafe-tests
+.PHONY : cafe-tests
 
 # fast build rule for target.
-Cafe/fast:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/build
-.PHONY : Cafe/fast
+cafe-tests/fast:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/build
+.PHONY : cafe-tests/fast
 
-cafe.o: cafe.cpp.o
+#=============================================================================
+# Target rules for targets named cafe
 
-.PHONY : cafe.o
+# Build rule for target.
+cafe: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 cafe
+.PHONY : cafe
 
-# target to build an object file
-cafe.cpp.o:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/cafe.cpp.o
-.PHONY : cafe.cpp.o
+# fast build rule for target.
+cafe/fast:
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/build
+.PHONY : cafe/fast
 
-cafe.i: cafe.cpp.i
+#=============================================================================
+# Target rules for targets named gtest
 
-.PHONY : cafe.i
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
 
-# target to preprocess a source file
-cafe.cpp.i:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/cafe.cpp.i
-.PHONY : cafe.cpp.i
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
 
-cafe.s: cafe.cpp.s
+googletest/googletest/src/gtest-all.o: googletest/googletest/src/gtest-all.cc.o
 
-.PHONY : cafe.s
-
-# target to generate assembly for a file
-cafe.cpp.s:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/cafe.cpp.s
-.PHONY : cafe.cpp.s
-
-interface.o: interface.cpp.o
-
-.PHONY : interface.o
-
-# target to build an object file
-interface.cpp.o:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/interface.cpp.o
-.PHONY : interface.cpp.o
-
-interface.i: interface.cpp.i
-
-.PHONY : interface.i
-
-# target to preprocess a source file
-interface.cpp.i:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/interface.cpp.i
-.PHONY : interface.cpp.i
-
-interface.s: interface.cpp.s
-
-.PHONY : interface.s
-
-# target to generate assembly for a file
-interface.cpp.s:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/interface.cpp.s
-.PHONY : interface.cpp.s
-
-item.o: item.cpp.o
-
-.PHONY : item.o
+.PHONY : googletest/googletest/src/gtest-all.o
 
 # target to build an object file
-item.cpp.o:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/item.cpp.o
-.PHONY : item.cpp.o
+googletest/googletest/src/gtest-all.cc.o:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o
+.PHONY : googletest/googletest/src/gtest-all.cc.o
 
-item.i: item.cpp.i
+googletest/googletest/src/gtest-all.i: googletest/googletest/src/gtest-all.cc.i
 
-.PHONY : item.i
+.PHONY : googletest/googletest/src/gtest-all.i
 
 # target to preprocess a source file
-item.cpp.i:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/item.cpp.i
-.PHONY : item.cpp.i
+googletest/googletest/src/gtest-all.cc.i:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.i
+.PHONY : googletest/googletest/src/gtest-all.cc.i
 
-item.s: item.cpp.s
+googletest/googletest/src/gtest-all.s: googletest/googletest/src/gtest-all.cc.s
 
-.PHONY : item.s
+.PHONY : googletest/googletest/src/gtest-all.s
 
 # target to generate assembly for a file
-item.cpp.s:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/item.cpp.s
-.PHONY : item.cpp.s
+googletest/googletest/src/gtest-all.cc.s:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.s
+.PHONY : googletest/googletest/src/gtest-all.cc.s
 
-main.o: main.cpp.o
+googletest/googletest/src/gtest_main.o: googletest/googletest/src/gtest_main.cc.o
 
-.PHONY : main.o
+.PHONY : googletest/googletest/src/gtest_main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/main.cpp.o
-.PHONY : main.cpp.o
+googletest/googletest/src/gtest_main.cc.o:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o
+.PHONY : googletest/googletest/src/gtest_main.cc.o
 
-main.i: main.cpp.i
+googletest/googletest/src/gtest_main.i: googletest/googletest/src/gtest_main.cc.i
 
-.PHONY : main.i
+.PHONY : googletest/googletest/src/gtest_main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/main.cpp.i
-.PHONY : main.cpp.i
+googletest/googletest/src/gtest_main.cc.i:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.i
+.PHONY : googletest/googletest/src/gtest_main.cc.i
 
-main.s: main.cpp.s
+googletest/googletest/src/gtest_main.s: googletest/googletest/src/gtest_main.cc.s
 
-.PHONY : main.s
+.PHONY : googletest/googletest/src/gtest_main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/main.cpp.s
-.PHONY : main.cpp.s
+googletest/googletest/src/gtest_main.cc.s:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.s
+.PHONY : googletest/googletest/src/gtest_main.cc.s
+
+src/cafe.o: src/cafe.cpp.o
+
+.PHONY : src/cafe.o
+
+# target to build an object file
+src/cafe.cpp.o:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/cafe.cpp.o
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/cafe.cpp.o
+.PHONY : src/cafe.cpp.o
+
+src/cafe.i: src/cafe.cpp.i
+
+.PHONY : src/cafe.i
+
+# target to preprocess a source file
+src/cafe.cpp.i:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/cafe.cpp.i
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/cafe.cpp.i
+.PHONY : src/cafe.cpp.i
+
+src/cafe.s: src/cafe.cpp.s
+
+.PHONY : src/cafe.s
+
+# target to generate assembly for a file
+src/cafe.cpp.s:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/cafe.cpp.s
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/cafe.cpp.s
+.PHONY : src/cafe.cpp.s
+
+src/interface.o: src/interface.cpp.o
+
+.PHONY : src/interface.o
+
+# target to build an object file
+src/interface.cpp.o:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/interface.cpp.o
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/interface.cpp.o
+.PHONY : src/interface.cpp.o
+
+src/interface.i: src/interface.cpp.i
+
+.PHONY : src/interface.i
+
+# target to preprocess a source file
+src/interface.cpp.i:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/interface.cpp.i
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/interface.cpp.i
+.PHONY : src/interface.cpp.i
+
+src/interface.s: src/interface.cpp.s
+
+.PHONY : src/interface.s
+
+# target to generate assembly for a file
+src/interface.cpp.s:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/interface.cpp.s
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/interface.cpp.s
+.PHONY : src/interface.cpp.s
+
+src/item.o: src/item.cpp.o
+
+.PHONY : src/item.o
+
+# target to build an object file
+src/item.cpp.o:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/item.cpp.o
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/item.cpp.o
+.PHONY : src/item.cpp.o
+
+src/item.i: src/item.cpp.i
+
+.PHONY : src/item.i
+
+# target to preprocess a source file
+src/item.cpp.i:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/item.cpp.i
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/item.cpp.i
+.PHONY : src/item.cpp.i
+
+src/item.s: src/item.cpp.s
+
+.PHONY : src/item.s
+
+# target to generate assembly for a file
+src/item.cpp.s:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/src/item.cpp.s
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/item.cpp.s
+.PHONY : src/item.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+test/test.o: test/test.cpp.o
+
+.PHONY : test/test.o
+
+# target to build an object file
+test/test.cpp.o:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/test/test.cpp.o
+.PHONY : test/test.cpp.o
+
+test/test.i: test/test.cpp.i
+
+.PHONY : test/test.i
+
+# target to preprocess a source file
+test/test.cpp.i:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/test/test.cpp.i
+.PHONY : test/test.cpp.i
+
+test/test.s: test/test.cpp.s
+
+.PHONY : test/test.s
+
+# target to generate assembly for a file
+test/test.cpp.s:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/test/test.cpp.s
+.PHONY : test/test.cpp.s
 
 # Help Target
 help:
@@ -237,21 +353,32 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... cafe-tests"
+	@echo "... cafe"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Cafe"
-	@echo "... cafe.o"
-	@echo "... cafe.i"
-	@echo "... cafe.s"
-	@echo "... interface.o"
-	@echo "... interface.i"
-	@echo "... interface.s"
-	@echo "... item.o"
-	@echo "... item.i"
-	@echo "... item.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... gtest"
+	@echo "... googletest/googletest/src/gtest-all.o"
+	@echo "... googletest/googletest/src/gtest-all.i"
+	@echo "... googletest/googletest/src/gtest-all.s"
+	@echo "... googletest/googletest/src/gtest_main.o"
+	@echo "... googletest/googletest/src/gtest_main.i"
+	@echo "... googletest/googletest/src/gtest_main.s"
+	@echo "... src/cafe.o"
+	@echo "... src/cafe.i"
+	@echo "... src/cafe.s"
+	@echo "... src/interface.o"
+	@echo "... src/interface.i"
+	@echo "... src/interface.s"
+	@echo "... src/item.o"
+	@echo "... src/item.i"
+	@echo "... src/item.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... test/test.o"
+	@echo "... test/test.i"
+	@echo "... test/test.s"
 .PHONY : help
 
 

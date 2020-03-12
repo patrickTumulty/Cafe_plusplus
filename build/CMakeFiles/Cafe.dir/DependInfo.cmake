@@ -4,15 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/cafe.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/Cafe.dir/cafe.cpp.o"
-  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/interface.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/Cafe.dir/interface.cpp.o"
-  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/item.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/Cafe.dir/item.cpp.o"
-  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/main.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/Cafe.dir/main.cpp.o"
+  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/cafe.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/cafe.cpp.o"
+  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/interface.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/interface.cpp.o"
+  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/item.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/item.cpp.o"
+  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/main.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../googletest/googletest"
+  "../googletest/googletest/include"
   )
 
 # Targets to which this target links.

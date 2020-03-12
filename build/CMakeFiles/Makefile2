@@ -44,16 +44,18 @@ RM = /usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus
+CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build
+CMAKE_BINARY_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Cafe.dir/all
+all: CMakeFiles/cafe-tests.dir/all
+all: CMakeFiles/cafe.dir/all
+all: CMakeFiles/gtest.dir/all
 
 .PHONY : all
 
@@ -63,36 +65,92 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Cafe.dir/clean
+clean: CMakeFiles/cafe-tests.dir/clean
+clean: CMakeFiles/cafe.dir/clean
+clean: CMakeFiles/gtest.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cafe.dir
+# Target rules for target CMakeFiles/cafe-tests.dir
 
 # All Build rule for target.
-CMakeFiles/Cafe.dir/all:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/depend
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Cafe"
-.PHONY : CMakeFiles/Cafe.dir/all
+CMakeFiles/cafe-tests.dir/all: CMakeFiles/gtest.dir/all
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/depend
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=6,7,8,9,10 "Built target cafe-tests"
+.PHONY : CMakeFiles/cafe-tests.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cafe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cafe.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles 0
-.PHONY : CMakeFiles/Cafe.dir/rule
+CMakeFiles/cafe-tests.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 8
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cafe-tests.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 0
+.PHONY : CMakeFiles/cafe-tests.dir/rule
 
 # Convenience name for target.
-Cafe: CMakeFiles/Cafe.dir/rule
+cafe-tests: CMakeFiles/cafe-tests.dir/rule
 
-.PHONY : Cafe
+.PHONY : cafe-tests
 
 # clean rule for target.
-CMakeFiles/Cafe.dir/clean:
-	$(MAKE) -f CMakeFiles/Cafe.dir/build.make CMakeFiles/Cafe.dir/clean
-.PHONY : CMakeFiles/Cafe.dir/clean
+CMakeFiles/cafe-tests.dir/clean:
+	$(MAKE) -f CMakeFiles/cafe-tests.dir/build.make CMakeFiles/cafe-tests.dir/clean
+.PHONY : CMakeFiles/cafe-tests.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/cafe.dir
+
+# All Build rule for target.
+CMakeFiles/cafe.dir/all:
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/depend
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target cafe"
+.PHONY : CMakeFiles/cafe.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/cafe.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cafe.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 0
+.PHONY : CMakeFiles/cafe.dir/rule
+
+# Convenience name for target.
+cafe: CMakeFiles/cafe.dir/rule
+
+.PHONY : cafe
+
+# clean rule for target.
+CMakeFiles/cafe.dir/clean:
+	$(MAKE) -f CMakeFiles/cafe.dir/build.make CMakeFiles/cafe.dir/clean
+.PHONY : CMakeFiles/cafe.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/gtest.dir
+
+# All Build rule for target.
+CMakeFiles/gtest.dir/all:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/depend
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=11,12,13 "Built target gtest"
+.PHONY : CMakeFiles/gtest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/gtest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/gtest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 0
+.PHONY : CMakeFiles/gtest.dir/rule
+
+# Convenience name for target.
+gtest: CMakeFiles/gtest.dir/rule
+
+.PHONY : gtest
+
+# clean rule for target.
+CMakeFiles/gtest.dir/clean:
+	$(MAKE) -f CMakeFiles/gtest.dir/build.make CMakeFiles/gtest.dir/clean
+.PHONY : CMakeFiles/gtest.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
