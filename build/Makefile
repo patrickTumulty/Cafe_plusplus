@@ -48,10 +48,10 @@ RM = /usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe
+CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe/build
+CMAKE_BINARY_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

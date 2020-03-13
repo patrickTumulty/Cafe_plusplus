@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest-all.cc" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o"
-  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest_main.cc" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o"
+  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest-all.cc" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o"
+  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest_main.cc" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

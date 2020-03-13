@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/cafe.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/cafe.cpp.o"
-  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/interface.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/interface.cpp.o"
-  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/item.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/item.cpp.o"
-  "/Users/ptumulty/Developer/VS_Code/C++/Cafe/src/main.cpp" "/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe.dir/src/main.cpp.o"
+  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/cafe.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/cafe.dir/src/cafe.cpp.o"
+  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/interface.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/cafe.dir/src/interface.cpp.o"
+  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/item.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/cafe.dir/src/item.cpp.o"
+  "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/main.cpp" "/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/cafe.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

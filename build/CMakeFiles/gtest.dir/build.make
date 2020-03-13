@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe
+CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe/build
+CMAKE_BINARY_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/gtest.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/gtest.dir/flags.make
 
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o: CMakeFiles/gtest.dir/flags.make
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o: ../googletest/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o -c /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o -c /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest-all.cc
 
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.i
 
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.s
 
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o: CMakeFiles/gtest.dir/flags.make
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o: ../googletest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o -c /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o -c /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest_main.cc
 
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.i
 
 CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -95,7 +95,7 @@ libgtest.a: CMakeFiles/gtest.dir/googletest/googletest/src/gtest-all.cc.o
 libgtest.a: CMakeFiles/gtest.dir/googletest/googletest/src/gtest_main.cc.o
 libgtest.a: CMakeFiles/gtest.dir/build.make
 libgtest.a: CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgtest.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libgtest.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/gtest.dir/clean:
 .PHONY : CMakeFiles/gtest.dir/clean
 
 CMakeFiles/gtest.dir/depend:
-	cd /Users/ptumulty/Developer/VS_Code/C++/Cafe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ptumulty/Developer/VS_Code/C++/Cafe /Users/ptumulty/Developer/VS_Code/C++/Cafe /Users/ptumulty/Developer/VS_Code/C++/Cafe/build /Users/ptumulty/Developer/VS_Code/C++/Cafe/build /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ptumulty/Developer/GitHub/Cafe_plusplus /Users/ptumulty/Developer/GitHub/Cafe_plusplus /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/gtest.dir/depend
 

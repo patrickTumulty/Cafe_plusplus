@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++11 -Wall -Wextra -Werror -pthread -isysroot /Library/Develo
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest -isystem /Users/ptumulty/Developer/VS_Code/C++/Cafe/googletest/googletest/include 
+CXX_INCLUDES = -isystem /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest -isystem /Users/ptumulty/Developer/GitHub/Cafe_plusplus/googletest/googletest/include 
 

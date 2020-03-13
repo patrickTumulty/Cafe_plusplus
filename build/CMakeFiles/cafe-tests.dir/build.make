@@ -43,10 +43,10 @@ RM = /usr/local/Cellar/cmake/3.16.4/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe
+CMAKE_SOURCE_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/ptumulty/Developer/VS_Code/C++/Cafe/build
+CMAKE_BINARY_DIR = /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/cafe-tests.dir/depend.make
@@ -59,55 +59,55 @@ include CMakeFiles/cafe-tests.dir/flags.make
 
 CMakeFiles/cafe-tests.dir/test/test.cpp.o: CMakeFiles/cafe-tests.dir/flags.make
 CMakeFiles/cafe-tests.dir/test/test.cpp.o: ../test/test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cafe-tests.dir/test/test.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/test/test.cpp.o -c /Users/ptumulty/Developer/VS_Code/C++/Cafe/test/test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cafe-tests.dir/test/test.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/test/test.cpp.o -c /Users/ptumulty/Developer/GitHub/Cafe_plusplus/test/test.cpp
 
 CMakeFiles/cafe-tests.dir/test/test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cafe-tests.dir/test/test.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/VS_Code/C++/Cafe/test/test.cpp > CMakeFiles/cafe-tests.dir/test/test.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/GitHub/Cafe_plusplus/test/test.cpp > CMakeFiles/cafe-tests.dir/test/test.cpp.i
 
 CMakeFiles/cafe-tests.dir/test/test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cafe-tests.dir/test/test.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/VS_Code/C++/Cafe/test/test.cpp -o CMakeFiles/cafe-tests.dir/test/test.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/GitHub/Cafe_plusplus/test/test.cpp -o CMakeFiles/cafe-tests.dir/test/test.cpp.s
 
 CMakeFiles/cafe-tests.dir/src/cafe.cpp.o: CMakeFiles/cafe-tests.dir/flags.make
 CMakeFiles/cafe-tests.dir/src/cafe.cpp.o: ../src/cafe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cafe-tests.dir/src/cafe.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/src/cafe.cpp.o -c /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/cafe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/cafe-tests.dir/src/cafe.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/src/cafe.cpp.o -c /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/cafe.cpp
 
 CMakeFiles/cafe-tests.dir/src/cafe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cafe-tests.dir/src/cafe.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/cafe.cpp > CMakeFiles/cafe-tests.dir/src/cafe.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/cafe.cpp > CMakeFiles/cafe-tests.dir/src/cafe.cpp.i
 
 CMakeFiles/cafe-tests.dir/src/cafe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cafe-tests.dir/src/cafe.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/cafe.cpp -o CMakeFiles/cafe-tests.dir/src/cafe.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/cafe.cpp -o CMakeFiles/cafe-tests.dir/src/cafe.cpp.s
 
 CMakeFiles/cafe-tests.dir/src/interface.cpp.o: CMakeFiles/cafe-tests.dir/flags.make
 CMakeFiles/cafe-tests.dir/src/interface.cpp.o: ../src/interface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cafe-tests.dir/src/interface.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/src/interface.cpp.o -c /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/cafe-tests.dir/src/interface.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/src/interface.cpp.o -c /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/interface.cpp
 
 CMakeFiles/cafe-tests.dir/src/interface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cafe-tests.dir/src/interface.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/interface.cpp > CMakeFiles/cafe-tests.dir/src/interface.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/interface.cpp > CMakeFiles/cafe-tests.dir/src/interface.cpp.i
 
 CMakeFiles/cafe-tests.dir/src/interface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cafe-tests.dir/src/interface.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/interface.cpp -o CMakeFiles/cafe-tests.dir/src/interface.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/interface.cpp -o CMakeFiles/cafe-tests.dir/src/interface.cpp.s
 
 CMakeFiles/cafe-tests.dir/src/item.cpp.o: CMakeFiles/cafe-tests.dir/flags.make
 CMakeFiles/cafe-tests.dir/src/item.cpp.o: ../src/item.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cafe-tests.dir/src/item.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/src/item.cpp.o -c /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/cafe-tests.dir/src/item.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/cafe-tests.dir/src/item.cpp.o -c /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/item.cpp
 
 CMakeFiles/cafe-tests.dir/src/item.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cafe-tests.dir/src/item.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/item.cpp > CMakeFiles/cafe-tests.dir/src/item.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/item.cpp > CMakeFiles/cafe-tests.dir/src/item.cpp.i
 
 CMakeFiles/cafe-tests.dir/src/item.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cafe-tests.dir/src/item.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/VS_Code/C++/Cafe/src/item.cpp -o CMakeFiles/cafe-tests.dir/src/item.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ptumulty/Developer/GitHub/Cafe_plusplus/src/item.cpp -o CMakeFiles/cafe-tests.dir/src/item.cpp.s
 
 # Object files for target cafe-tests
 cafe__tests_OBJECTS = \
@@ -126,7 +126,7 @@ cafe-tests: CMakeFiles/cafe-tests.dir/src/item.cpp.o
 cafe-tests: CMakeFiles/cafe-tests.dir/build.make
 cafe-tests: libgtest.a
 cafe-tests: CMakeFiles/cafe-tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cafe-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable cafe-tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cafe-tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -139,6 +139,6 @@ CMakeFiles/cafe-tests.dir/clean:
 .PHONY : CMakeFiles/cafe-tests.dir/clean
 
 CMakeFiles/cafe-tests.dir/depend:
-	cd /Users/ptumulty/Developer/VS_Code/C++/Cafe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ptumulty/Developer/VS_Code/C++/Cafe /Users/ptumulty/Developer/VS_Code/C++/Cafe /Users/ptumulty/Developer/VS_Code/C++/Cafe/build /Users/ptumulty/Developer/VS_Code/C++/Cafe/build /Users/ptumulty/Developer/VS_Code/C++/Cafe/build/CMakeFiles/cafe-tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/ptumulty/Developer/GitHub/Cafe_plusplus /Users/ptumulty/Developer/GitHub/Cafe_plusplus /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build /Users/ptumulty/Developer/GitHub/Cafe_plusplus/build/CMakeFiles/cafe-tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cafe-tests.dir/depend
 
