@@ -1,6 +1,7 @@
 
 
 #include <iostream>
+#include <string>
 #include "cafe.hpp"
 #include "interface.hpp"
 
@@ -10,13 +11,11 @@ Interface::Interface()
     m_display_width = 30;
     m_cafe = new Cafe();
     this->stockInventory();
-    // this->mainLoop();
 }
 
 Interface::~Interface()
 {
-    
-
+    delete m_cafe;
 }
 
 int Interface::mainLoop()
@@ -137,7 +136,7 @@ void Interface::clearScreen()
 void Interface::stockInventory()
 {
     this->m_cafe->setName("Cafe++");
-    this->m_cafe->addInventory("Coffee", 100, 3.28);
+    this->m_cafe->addInventory("Coffee", 100, 3.26);
     this->m_cafe->addInventory("Tea", 50, 2.10);
     this->m_cafe->addInventory("Latte", 75, 5.20);
     this->m_cafe->addInventory("Scones", 15, 4.25);
@@ -148,16 +147,33 @@ void Interface::stockInventory()
 
 void Interface::readChangeMap(std::map<float, int> * changeMap)
 {
-    float total = 0.0;
+
+    std::string line = "";
+    std::string value = "";
+    std::string amount = "";
+    std::string total = "";
+    float t = 0.0;
     for (std::map<float, int>::iterator it = changeMap->begin(); it != changeMap->end(); ++it)
     {
         if (it->second != 0)
         {
-            total += it->first * it->second;
-            std::cout << "   $" << it->first << " x " << it->second << std::endl; 
+            line = "";
+            value = this->num_to_string(it->first);
+            amount = this->num_to_string(it->second);
+            t += it->first * it->second;
+            if (value.length() == 4)
+            {
+                line = "  $ " + value + " x " + amount[0];
+            }
+            else if (value.length() == 5)
+            {
+                line = "  $" + value + " x " + amount[0];
+            }
+            std::cout << line << std::endl; 
         }
     }
-    std::cout << "Your change is $" << total << std::endl;
+    total = this->num_to_string(t);
+    std::cout << "Your change is $" + total << std::endl;
 }
 
 Cafe * Interface::getCafe()

@@ -59,7 +59,6 @@ float Cafe::makeSale(std::string item, int quantity)
         total = _inventory->at(item).getPrice() * quantity;
         _inventory->at(item).subtractQuantity(quantity);
     }
-   
     return total;
 }
 

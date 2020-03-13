@@ -6,7 +6,8 @@
 
 int main() 
 {
-    Interface interface = Interface();
+    Interface * interface = new Interface();
+    interface->mainLoop();
     std::cout << "Goodbye!" << std::endl;
     return 0;
 }

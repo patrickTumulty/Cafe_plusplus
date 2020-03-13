@@ -40,25 +40,29 @@ TEST(CHANGETEST4, correctChange)
 TEST(SALETEST1, correctTotal)
 {
     Interface * interface = new Interface();
-    ASSERT_EQ(13.12, interface->getCafe()->makeSale("Coffee", 4));
+    float expected = 3.26;
+    ASSERT_EQ(expected, interface->getCafe()->makeSale("Coffee", 1));
 }
 
 TEST(SALETEST2, correctTotal)
 {
     Interface * interface = new Interface();
-    ASSERT_EQ(26, interface->getCafe()->makeSale("Latte", 5));
+    float expected = 26;
+    ASSERT_EQ(expected, interface->getCafe()->makeSale("Latte", 5));
 }
 
 TEST(SALETEST3, correctTotal)
 {
     Interface * interface = new Interface();
-    ASSERT_EQ(78, interface->getCafe()->makeSale("Sandwich", 10));
+    float expected = 78;
+    ASSERT_EQ(expected, interface->getCafe()->makeSale("Sandwich", 10));
 }
 
 TEST(SALETEST4, correctTotal)
 {
     Interface * interface = new Interface();
-    ASSERT_EQ(29.75 ,interface->getCafe()->makeSale("Scones", 7));
+    float expected = 29.75;
+    ASSERT_EQ(expected ,interface->getCafe()->makeSale("Scones", 7));
 }
 
 
